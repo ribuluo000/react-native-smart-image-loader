@@ -7,7 +7,6 @@
 
 
 import React, {
-    PropTypes,
     Component,
 } from 'react'
 import {
@@ -15,6 +14,7 @@ import {
     requireNativeComponent,
     Platform
 } from 'react-native'
+import PropTypes from 'prop-types';
 
 export default class ImageLoader extends Component {
 
