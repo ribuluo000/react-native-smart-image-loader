@@ -37,7 +37,7 @@ It can only be used greater-than-equal react-native 0.4.0 for ios, if you want t
 
 # im. add the default placeholder.png
  在xcode中选中项目根目录，右击选择New Group，将目录名称改为：‘ImageLoaderResources’，选中‘ImageLoaderResources’目录，右击选择Add Files to **，将img_default.png 添加进来；结果如下图所示：
-![](media/15125434710811/15203060423452.jpg)
+![](https://github.com/ribuluo000/react-native-smart-image-loader/blob/master/xcode1.jpg?raw=true)
 
 ---
 
