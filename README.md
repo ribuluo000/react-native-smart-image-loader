@@ -32,7 +32,14 @@ It can only be used greater-than-equal react-native 0.4.0 for ios, if you want t
 
 * Look for Header Search Paths and make sure it contains $(SRCROOT)/../../../react-native/React as recursive.
 
-* Dray ImageLoaderResources folder to your project. *if you want change image, replace goods-placeholder.png, and you also can rename the image file*
+* ~~Dray ImageLoaderResources folder to your project. *if you want change image, replace goods-placeholder.png, and you also can rename the image file*~~
+
+
+# im. add the default placeholder.png
+ 在xcode中选中项目根目录，右击选择New Group，将目录名称改为：‘ImageLoaderResources’，选中‘ImageLoaderResources’目录，右击选择Add Files to **，将img_default.png 添加进来；结果如下图所示：
+![](media/15125434710811/15203060423452.jpg)
+
+---
 
 ## Installation (Android)
 
@@ -54,6 +61,12 @@ dependencies {
     compile project(':react-native-smart-image-loader')
 }
 ```
+
+# im. add the default placeholder.png
+add the placeholder.png to drawable 目录下
+
+---
+
 
 * in MainApplication.java
 
@@ -382,3 +395,4 @@ options.rowID          | string | Yes      |           | determines the rowID fo
 [2]: https://github.com/nostra13/Android-Universal-Image-Loader
 [3]: http://cyqresig.github.io/img/react-native-smart-image-loader-preview-ios-v1.0.0.gif
 [4]: http://cyqresig.github.io/img/react-native-smart-image-loader-preview-android-v1.0.0.gif
+
